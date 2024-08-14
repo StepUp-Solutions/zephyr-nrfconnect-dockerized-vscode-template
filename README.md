@@ -1,0 +1,1 @@
+# zephyr-nrfconnect-dockerized-vscode-template
