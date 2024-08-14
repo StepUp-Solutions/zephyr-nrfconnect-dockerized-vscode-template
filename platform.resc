@@ -1,0 +1,6 @@
+mach create
+machine LoadPlatformDescription @platforms/boards/nrf52840dk_nrf52840.repl
+sysbus LoadELF @app/build/zephyr/zephyr.elf
+
+$bin ?= $CWD/app/build/zephyr/zephyr.elf
+machine StartGdbServer 3333

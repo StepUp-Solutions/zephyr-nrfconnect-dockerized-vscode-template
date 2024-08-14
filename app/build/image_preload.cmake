@@ -1,0 +1,10 @@
+# Generated file that can be used to preload variant images
+set(BOARD "nrf52840dk_nrf52840" CACHE INTERNAL "NCS child image controlled")
+set(CACHED_CONF_FILE "/workspaces/embedded/app/prj.conf" CACHE INTERNAL "NCS child image controlled")
+set(CACHED_CONF_FILE "/workspaces/embedded/app/prj.conf" CACHE INTERNAL "NCS child image controlled")
+set(CLI_CONFIG_DEBUG_OPTIMIZATIONS "y" CACHE INTERNAL "NCS child image controlled")
+set(CLI_CONFIG_DEBUG_THREAD_INFO "y" CACHE INTERNAL "NCS child image controlled")
+set(CONF_FILE_BUILD_TYPE "" CACHE INTERNAL "NCS child image controlled")
+set(DTC_OVERLAY_FILE "" CACHE INTERNAL "NCS child image controlled")
+set(NCS_TOOLCHAIN_VERSION "NONE" CACHE INTERNAL "NCS child image controlled")
+set(WEST_PYTHON "/config/ncs/toolchains/e9dba88316/usr/local/bin/python3.9" CACHE INTERNAL "NCS child image controlled")
