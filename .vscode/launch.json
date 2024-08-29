@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug application in Renode",
+            "type": "cppdbg",
+            "request": "launch",
+            "postDebugTask": "Close Renode",
+            "miDebuggerServerAddress": "localhost:3333",
+            "cwd": "${workspaceRoot}",
+            "miDebuggerPath": "${env:ZEPHYR_SDK_INSTALL_DIR}/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
+            "program": "${workspaceRoot}/app/build/zephyr/zephyr.elf"
+        },
+        {
+            "type": "nrf-connect",
+            "request": "launch",
+            "name": "Launch build",
+            "config": "${workspaceFolder}/app/build",
+            "runToEntryPoint": "main"
+        }
+    ]
+}

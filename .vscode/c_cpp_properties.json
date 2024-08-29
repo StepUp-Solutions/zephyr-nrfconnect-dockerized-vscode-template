@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "NRF52840",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/app",
+                "${workspaceFolder}/app/**"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm",
+            "configurationProvider": "nordic-semiconductor.nrf-connect"
+        }
+    ],
+    "version": 4
+}

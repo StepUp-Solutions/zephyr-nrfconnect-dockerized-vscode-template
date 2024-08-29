@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "battery.h": "c",
+        "logic.h": "c",
+        "cellular_module_controller.h": "c",
+        "kernel.h": "c"
+    },
+    "git.ignoreLimitWarning": true,
+    "nrf-connect.topdir": "${nrf-connect.sdk:2.6.0}",
+    "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.7.0}",
+    "nrf-connect.applications": [
+        "${workspaceFolder}/app"
+    ],
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.arguments": [
+	"--compile-commands-dir=${workspaceFolder}/app/build"
+    ],
+    "nrf-connect.debugging.bindings": {
+        "${workspaceFolder}/app/build": "Launch build"
+    }
+}
